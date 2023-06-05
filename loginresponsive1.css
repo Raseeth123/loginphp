@@ -1,0 +1,133 @@
+body{
+  text-align: center;
+  font-family: tahoma;
+
+}
+img {
+  padding:10px;
+  border-radius: 50%;
+  size: 40px;
+}
+.avatar {
+  vertical-align: middle;
+ /* margin-top: 25px;
+  margin-bottom:25px;
+  margin-right: 25px;
+  margin-left:200px; */
+  size:40px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+}
+
+#cot{
+ 
+  /*box-shadow: 4px 10px #5A5A5A;*/
+  margin-right: 10px;
+  margin-left: 5px;
+  padding:10px
+  text-align: center;
+}
+.tik{
+  padding:10px;
+  display:block;
+}
+.label{
+  font-family: tahoma;
+  font-style: bold;
+  display: inline-block;
+  padding:10px;
+  
+}
+.input{
+/*display:block;
+  width:100%;
+  margin:25px 50px 75px 10px;
+  border:3px solid #000000;
+  box-sizing: border-box;*/
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding:10px;
+}
+form{
+  padding:5px;
+  margin-left: 15%;
+  margin-top:25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  border:3px solid #5A5A5A; 
+  width:70%;
+}
+
+.inlineblock{
+  padding: 10px;
+}
+
+.action{
+  background-color: #013220;
+  color:#FFFFFF;
+  width:100%;
+  text-align: center;
+  align-items: center;
+  padding:5px;
+}
+.alpha{
+  padding:10px;
+  color: #FF0000;
+}
+.beta{
+  background-color: #013220;
+  color:#FFFFFF;
+  padding:10px;
+}
+.gamma{
+  padding:10px;
+}
+/*span{
+  font-style: bold;
+}*/
+.icon1{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  }
+.iconav{
+  /*margin-left: 38%;*/
+}
+@media only screen and (max-width: 750px){
+   
+   .inlineblock{
+    padding: 5px;
+   }
+
+   .action{
+    padding:5px;
+    width:100%;
+   }
+
+   .alpha{
+    padding:10px;
+   }
+
+   .beta{
+    display:block;
+    padding:5px;
+   }
+
+  .icon1{
+    width:70px;
+    height: 70px;
+    object-fit: contain;
+
+  }
+
+
+/*https://png.pngtree.com/element_our/png/20181228/avatar-vector-icon-png_296057.jpg...
+"https://www.w3schools.com/howto/img_avatar.png"
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbuJLO0LlaXej6fX-ovajnLFucc7Loyp_XF4LyvG6IAv8vJXchukw5C9pdpechjYalrIc&usqp=CAU
+https://github.com/Raseeth123/responsiveloginform.github.io.git*/
